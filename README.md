@@ -1,1 +1,1 @@
-# RollingBall
+# Computer Graphics Demo
