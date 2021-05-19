@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		83B2C657CB384C4B970F9EEF /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 99C43C800C494FE0847E1B05 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				11DCEFC4D685462AA2503486 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		E2DB6C8BA71D42258E2824D4 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 61BCCA09361B4B23B7ECC320 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				0ADCC47EE26640FBB8311881 /* CMake Rules */,
+			);
+			dependencies = (
+				8A75099935794141AEEE5871 /* PBXTargetDependency */,
+				9C9466583E074A188840E2F3 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3213C452E3744021B6BABFBE /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/rotate-cube-new.cpp */ = {isa = PBXBuildFile; fileRef = 8C4B2EF1108E40A589197F83 /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/rotate-cube-new.cpp */; };
+		438F4175B22543ADA33BB05A /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 50C425C6CB514BFCADD60401 /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/CMakeLists.txt */; };
+		61B27F35EB3542628538DEF6 /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/mat-yjc-new.h */ = {isa = PBXBuildFile; fileRef = 32F8F1EED6014B74A6EE8F1E /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/mat-yjc-new.h */; };
+		855DACF86E0D4E2F9F7D0724 /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/InitShader.cpp */ = {isa = PBXBuildFile; fileRef = 8088AF7BE7414A36814D597D /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/InitShader.cpp */; };
+		CE324313F5644A05ADDF5B6F /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/CheckError.h */ = {isa = PBXBuildFile; fileRef = B51B5B91C80E4BFDA7C15BF2 /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/CheckError.h */; };
+		ED8C41368BBC42C4A73ABE95 /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/vec.h */ = {isa = PBXBuildFile; fileRef = 0A2E733419974DF1A72CB778 /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/vec.h */; };
+		F27B9B48BE2D40AC913B2080 /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/Angel-yjc.h */ = {isa = PBXBuildFile; fileRef = AF833328891E4E978AAE32B4 /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/Angel-yjc.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2EE68DE118084EDCB6167293 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		41F737D6A5B540739ACA57C3 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		8E2B1516A22845C386CCE59B /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		8FDDC9F7BE104857A7778620 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1D5058F6EA0C4A3292CD95E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97A5A9DF951843BC91EB7EC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 332C8FB020BC40C183C16478;
+			remoteInfo = RotateCubeNew;
+		};
+		A430B89BA2EC41AD9105C130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97A5A9DF951843BC91EB7EC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83B2C657CB384C4B970F9EEF;
+			remoteInfo = ZERO_CHECK;
+		};
+		F699BCBFFAB94A1DA43F5F8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97A5A9DF951843BC91EB7EC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83B2C657CB384C4B970F9EEF;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A2E733419974DF1A72CB778 /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/vec.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = vec.h; path = vec.h; sourceTree = SOURCE_ROOT; };
+		32F8F1EED6014B74A6EE8F1E /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/mat-yjc-new.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "mat-yjc-new.h"; path = "mat-yjc-new.h"; sourceTree = SOURCE_ROOT; };
+		50C425C6CB514BFCADD60401 /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8088AF7BE7414A36814D597D /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/InitShader.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = InitShader.cpp; path = InitShader.cpp; sourceTree = SOURCE_ROOT; };
+		8C4B2EF1108E40A589197F83 /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/rotate-cube-new.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "rotate-cube-new.cpp"; path = "rotate-cube-new.cpp"; sourceTree = SOURCE_ROOT; };
+		A0F8070BF62C4E968D9E9A23 /* RotateCubeNew */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = RotateCubeNew; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF833328891E4E978AAE32B4 /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/Angel-yjc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "Angel-yjc.h"; path = "Angel-yjc.h"; sourceTree = SOURCE_ROOT; };
+		B51B5B91C80E4BFDA7C15BF2 /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/CheckError.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = CheckError.h; path = CheckError.h; sourceTree = SOURCE_ROOT; };
+		FE8987F5F521466E82D9722D /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1D5B2414F63B4EFB9631ACA2 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				69136E43B7B14D7191470176 /* CMake Rules */,
+				FE8987F5F521466E82D9722D /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		41E5E037F7BE4B6A9658E18D = {
+			isa = PBXGroup;
+			children = (
+				8E1E4ABB03F04FE6AC8E208F /* RotateCubeNew */,
+				1D5B2414F63B4EFB9631ACA2 /* ALL_BUILD */,
+				B6CC43A4229C45DEA804C1B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69136E43B7B14D7191470176 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7F7549E71B9C4D678F9F433F /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF833328891E4E978AAE32B4 /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/Angel-yjc.h */,
+				B51B5B91C80E4BFDA7C15BF2 /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/CheckError.h */,
+				32F8F1EED6014B74A6EE8F1E /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/mat-yjc-new.h */,
+				0A2E733419974DF1A72CB778 /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/vec.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		8E1E4ABB03F04FE6AC8E208F /* RotateCubeNew */ = {
+			isa = PBXGroup;
+			children = (
+				B926DAC833704FE3A620DA2F /* Source Files */,
+				7F7549E71B9C4D678F9F433F /* Header Files */,
+				50C425C6CB514BFCADD60401 /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/CMakeLists.txt */,
+			);
+			name = RotateCubeNew;
+			sourceTree = "<group>";
+		};
+		B6CC43A4229C45DEA804C1B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0F8070BF62C4E968D9E9A23 /* RotateCubeNew */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B926DAC833704FE3A620DA2F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8088AF7BE7414A36814D597D /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/InitShader.cpp */,
+				8C4B2EF1108E40A589197F83 /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/rotate-cube-new.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		332C8FB020BC40C183C16478 /* RotateCubeNew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 452F99B567C648EABB182ABB /* Build configuration list for PBXNativeTarget "RotateCubeNew" */;
+			buildPhases = (
+				2D944B5ABFE34B748080FF48 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61A318058778438B8E0CD313 /* PBXTargetDependency */,
+			);
+			name = RotateCubeNew;
+			productName = RotateCubeNew;
+			productReference = A0F8070BF62C4E968D9E9A23 /* RotateCubeNew */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97A5A9DF951843BC91EB7EC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1200;
+			};
+			buildConfigurationList = DBFFA12CAA764AE6A5F094CB /* Build configuration list for PBXProject "RotateCubeNew" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				41F737D6A5B540739ACA57C3 /* Debug */,
+				2EE68DE118084EDCB6167293 /* Release */,
+				8E2B1516A22845C386CCE59B /* MinSizeRel */,
+				8FDDC9F7BE104857A7778620 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 41E5E037F7BE4B6A9658E18D;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				E2DB6C8BA71D42258E2824D4 /* ALL_BUILD */,
+				332C8FB020BC40C183C16478 /* RotateCubeNew */,
+				83B2C657CB384C4B970F9EEF /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0ADCC47EE26640FBB8311881 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/vincentliok/Documents/NYU/Interactive\\ Computer\\ Graphics/Rotate-Cube-New/build -f /Users/vincentliok/Documents/NYU/Interactive\\ Computer\\ Graphics/Rotate-Cube-New/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		11DCEFC4D685462AA2503486 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/vincentliok/Documents/NYU/Interactive\\ Computer\\ Graphics/Rotate-Cube-New/build -f /Users/vincentliok/Documents/NYU/Interactive\\ Computer\\ Graphics/Rotate-Cube-New/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		A09905B885154904B0F2930F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E1B357BE872140E5B7286C1A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D944B5ABFE34B748080FF48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855DACF86E0D4E2F9F7D0724 /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/InitShader.cpp */,
+				3213C452E3744021B6BABFBE /* /Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/rotate-cube-new.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61A318058778438B8E0CD313 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83B2C657CB384C4B970F9EEF /* ZERO_CHECK */;
+			targetProxy = F699BCBFFAB94A1DA43F5F8A /* PBXContainerItemProxy */;
+		};
+		8A75099935794141AEEE5871 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83B2C657CB384C4B970F9EEF /* ZERO_CHECK */;
+			targetProxy = A430B89BA2EC41AD9105C130 /* PBXContainerItemProxy */;
+		};
+		9C9466583E074A188840E2F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 332C8FB020BC40C183C16478 /* RotateCubeNew */;
+			targetProxy = 1D5058F6EA0C4A3292CD95E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1480632605954E90BBCEB9AA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4488F476C9574A259585E19E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		525C0DE4BA0243EFAA0C3F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/build/build";
+			};
+			name = Debug;
+		};
+		67FC75A17F4F4B83A521FB33 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6ABFFB31A6F2422AB11414C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/GLUT.framework/Headers);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11     -DNDEBUG   -Wno-deprecated-declarations";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework OpenGL -framework OpenGL -framework GLUT -framework Cocoa";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RotateCubeNew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7B8E5A1B2CFE4304AB39EAF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7D39BF6659B24148A8BF0364 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/GLUT.framework/Headers);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11        -DNDEBUG   -Wno-deprecated-declarations";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework OpenGL -framework OpenGL -framework GLUT -framework Cocoa";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RotateCubeNew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		824E231EE65A4C9A984024D1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		88F37458E36B43CB83235236 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/GLUT.framework/Headers);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11     -DNDEBUG   -Wno-deprecated-declarations";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework OpenGL -framework OpenGL -framework GLUT -framework Cocoa";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RotateCubeNew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		924E89E9BB7342499799C69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BE9A61E51FEF42DB91EDD5A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/GLUT.framework/Headers);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11      -Wno-deprecated-declarations";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -framework OpenGL -framework OpenGL -framework GLUT -framework Cocoa";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RotateCubeNew;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C20108B261AA4D80BC83E0A9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C40259D841304BD1B2800562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DEC5735C91684CB8B9FA0F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/build/build";
+			};
+			name = Release;
+		};
+		F469AD447CE64AEF8CBF4F75 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/build/build";
+			};
+			name = MinSizeRel;
+		};
+		F7C11BAB7ABF42C289D3CAF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		452F99B567C648EABB182ABB /* Build configuration list for PBXNativeTarget "RotateCubeNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9A61E51FEF42DB91EDD5A2 /* Debug */,
+				6ABFFB31A6F2422AB11414C2 /* Release */,
+				88F37458E36B43CB83235236 /* MinSizeRel */,
+				7D39BF6659B24148A8BF0364 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		61BCCA09361B4B23B7ECC320 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924E89E9BB7342499799C69B /* Debug */,
+				F7C11BAB7ABF42C289D3CAF7 /* Release */,
+				824E231EE65A4C9A984024D1 /* MinSizeRel */,
+				1480632605954E90BBCEB9AA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		99C43C800C494FE0847E1B05 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40259D841304BD1B2800562 /* Debug */,
+				7B8E5A1B2CFE4304AB39EAF7 /* Release */,
+				67FC75A17F4F4B83A521FB33 /* MinSizeRel */,
+				C20108B261AA4D80BC83E0A9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DBFFA12CAA764AE6A5F094CB /* Build configuration list for PBXProject "RotateCubeNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525C0DE4BA0243EFAA0C3F74 /* Debug */,
+				DEC5735C91684CB8B9FA0F49 /* Release */,
+				F469AD447CE64AEF8CBF4F75 /* MinSizeRel */,
+				4488F476C9574A259585E19E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97A5A9DF951843BC91EB7EC0 /* Project object */;
+}

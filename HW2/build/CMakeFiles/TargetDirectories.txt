@@ -1,0 +1,3 @@
+/Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/build/CMakeFiles/RotateCubeNew.dir
+/Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/build/CMakeFiles/ALL_BUILD.dir
+/Users/vincentliok/Documents/NYU/Interactive Computer Graphics/Rotate-Cube-New/build/CMakeFiles/ZERO_CHECK.dir
